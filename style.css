@@ -39,6 +39,11 @@
   background-color: rgb(240, 240, 95);
 }
 
+.agree-btn {
+  padding: 10px 20px;
+  background-color: rgb(218, 242, 222);
+  border-radius: 5px;
+}
 /* all shared style-END */
 /* --------------------------------------------------------------------------------- */
 /* header portion-START */
@@ -57,6 +62,7 @@ nav {
   width: autox;
   height: 560px;
   display: flex;
+  justify-content: space-between;
   background-color: #c6e4d6;
   border-radius: 10px;
 }
@@ -124,3 +130,24 @@ nav {
   background-position: 10px 5px;
 }
 /* Quote Section END */
+/* --------------------------------------------------------------------------------- */
+
+/* <!-- Opinion--START --> */
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td {
+  border: 1px solid rgb(151, 151, 151);
+  padding: 20px;
+}
+.first-row {
+  background-color: #d2fce2;
+  height: 10px;
+}
+.Opinion-Matters {
+  padding: 40px;
+}
+/* <!-- Opinion--End --> */
+/* --------------------------------------------------------------------------------- */
