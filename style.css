@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
-  margin: 10px 20px;
+  margin: 15px 15px;
   padding: 0px;
   font-family: "Fira Sans", serif;
 }
-
+/* --------------------------------------------------------------------------------- */
 /* all shared style-START */
 .common-btn1 {
   border: 2px;
@@ -13,9 +13,34 @@
   border-radius: 10px;
   color: white;
 }
+.title {
+  color: #373636;
+  font-weight: 800;
+}
+.text-description {
+  color: #1f1e1e;
+}
+.learn-more-blue {
+  border: 1px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgb(126, 126, 223);
+}
+.learn-more-green {
+  border: 1px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgb(119, 238, 119);
+}
+.learn-more-yellow {
+  border: 1px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgb(240, 240, 95);
+}
 
 /* all shared style-END */
-
+/* --------------------------------------------------------------------------------- */
 /* header portion-START */
 nav {
   display: flex;
@@ -29,22 +54,73 @@ nav {
 }
 
 .banner {
-  width: 1350px;
+  width: autox;
   height: 560px;
   display: flex;
   background-color: #c6e4d6;
   border-radius: 10px;
 }
 
-.bannerbox-1 {
-  margin: 150px 100px;
-  align-items: ;
-}
 .banner-title {
   color: #7d7b7b;
 }
 .banner-description {
   font-size: 40px;
 }
-
 /* header portion-END */
+/* --------------------------------------------------------------------------------- */
+/* Pillar of Bangldesh 2.0--START */
+.title-pillars {
+  margin-top: 100px;
+}
+.pillar-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pillar-boxs {
+  border: 1px solid rgb(154, 153, 153);
+  border-radius: 10px;
+  width: 450px;
+  height: 260px;
+}
+
+/* Pillar of Bangldesh 2.0--END */
+/* --------------------------------------------------------------------------------- */
+
+/* <!-- The Vision of future START --> */
+.pillar-box1 {
+  border: 1px solid rgb(154, 153, 153);
+  border-radius: 10px;
+  width: 450px;
+  height: 320px;
+  background-color: rgb(203, 203, 255);
+}
+.pillar-box2 {
+  border: 1px solid rgb(154, 153, 153);
+  border-radius: 10px;
+  width: 450px;
+  height: 320px;
+  background-color: rgb(186, 249, 208);
+}
+
+.pillar-box3 {
+  border: 1px solid rgb(154, 153, 153);
+  border-radius: 10px;
+  width: 450px;
+  height: 320px;
+  background-color: rgb(243, 250, 226);
+}
+/* <!-- The Vision of future END --> */
+
+/* Quote Section START */
+.Quote {
+  height: 150px;
+  width: auto;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+}
+/* Quote Section END */
