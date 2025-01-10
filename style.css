@@ -19,6 +19,7 @@
 }
 .text-description {
   color: #1f1e1e;
+  paddin
 }
 .learn-more-blue {
   border: 1px;
@@ -62,13 +63,15 @@ nav {
 }
 
 .banner {
-  width: autox;
+  width: auto;
   height: 560px;
   display: flex;
   justify-content: space-between;
   background-color: #c6e4d6;
   border-radius: 10px;
+  align-items: center;
 }
+
 
 .banner-title {
   color: #7d7b7b;
@@ -204,3 +207,38 @@ td {
 
 /* <!-- Donate today END-->
 <!------------------------------------------------------------------------------- --> */
+
+/* footer START */
+.Newsletter {
+  text-align: center;
+  background-color: #a4feac;
+  border-radius: 20px;
+  height: 200px;
+  padding: 50px;
+}
+.enter {
+  border: 1px;
+  padding: 10px 110px;
+  margin-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.btn-sub {
+  border: 1px;
+  padding: 10px 30px;
+  margin-left: 0;
+  background-color: #006a50;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.BD2{
+  text-align: center;
+  margin-top: 100px;
+}
+.logo{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+/* footer END */
