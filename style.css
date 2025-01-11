@@ -6,6 +6,11 @@
 }
 /* --------------------------------------------------------------------------------- */
 /* all shared style-START */
+.button:hover {
+  background-color: #ff90ff;
+  transform: scale(1.1);
+}
+
 .common-btn1 {
   border: 2px;
   background-color: #006a50;
@@ -19,14 +24,15 @@
 }
 .text-description {
   color: #1f1e1e;
-  paddin
 }
+
 .learn-more-blue {
   border: 1px;
   border-radius: 5px;
   padding: 10px 20px;
   background-color: rgb(126, 126, 223);
   color: white;
+  transition: background-color 0.3s, transform 0.3s;
 }
 .learn-more-green {
   border: 1px;
@@ -39,7 +45,7 @@
   border: 1px;
   border-radius: 5px;
   padding: 10px 20px;
-  background-color: rgb(240, 240, 95);
+  background-color: rgb(225, 141, 25);
   color: white;
 }
 
@@ -60,6 +66,7 @@ nav {
   border: 2px solid#006a50;
   border-radius: 5px;
   background-color: rgb(251, 249, 249);
+  color: #006a50;
 }
 
 .banner {
@@ -71,7 +78,6 @@ nav {
   border-radius: 10px;
   align-items: center;
 }
-
 
 .banner-title {
   color: #7d7b7b;
@@ -130,6 +136,7 @@ nav {
   width: auto;
   border: 1px solid gray;
   border-radius: 15px;
+  margin: 30px 50px;
   padding: 10px;
   background-image: url(assets/quote-bg.png);
   background-repeat: no-repeat;
@@ -165,8 +172,9 @@ td {
 .news-box {
   display: flex;
 }
+
 .satelite {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .newss-box {
@@ -232,13 +240,15 @@ td {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.BD2{
+.promise {
+  color: rgb(52, 51, 51);
+}
+.BD2 {
   text-align: center;
   margin-top: 100px;
 }
-.logo{
+.logo {
   text-align: center;
   margin-top: 20px;
-  
 }
 /* footer END */
